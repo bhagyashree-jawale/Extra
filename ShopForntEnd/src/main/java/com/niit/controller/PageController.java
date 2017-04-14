@@ -30,6 +30,7 @@ public class PageController {
 			greeting="Hello world";
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("greeting",greeting);
+		mv.addObject("greeting1",greeting);
 		return mv;
 	}
 }
